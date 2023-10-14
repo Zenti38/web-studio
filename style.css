@@ -13,7 +13,10 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 .logo{
-    font-family: Raleway;
+
+    
+    
+font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
@@ -103,4 +106,75 @@ letter-spacing: 0.03em;
 text-align: left;
 color: #757575;
 
+}
+ul,p,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+  }
+  address {
+    font-style: normal;
+  }
+.features-list-title{
+    margin-bottom: 10px;
+}
+.work-title{
+    margin-bottom: 50px;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color:#212121;
+}
+.work-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.team-title{
+    margin-top: 188px;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color:#212121;
+}
+.address-list{
+    margin-left: 215px;
+}
+.team-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.section-work{
+    padding-bottom: 94px;
+
+}
+.footer-logo{
+    color:#FFFFFF;
+}
+.footer{
+    margin-top: 94px;
+    background:  #2F303A ;
+    height: 252px;
+}
+.address{
+margin-top: 111px;
+margin-bottom: 60px;
+}
+.address-list-link{
+    color: #FFFFFF;
+}
+.logo-2{
+margin-left: 215px;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
 }
