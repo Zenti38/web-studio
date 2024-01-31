@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
 a{
     text-decoration: none;
 }
@@ -80,6 +84,10 @@ margin: 0 auto;
     margin: 0 auto;
     border: none;
     margin-top: 30px;
+}
+.section-hero-btn:hover{
+    cursor: pointer;
+    background-color: #2196F3;
 }
 .section-features{
     padding-top: 94px;
@@ -216,3 +224,103 @@ margin-bottom: 30px;
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.input-name,.input-tel,.input-email{
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    width: 100%;
+    height: 120px;
+}
+    
+    
+    .backdrop{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal{
+        border-radius: 12px;
+        background-color: rgb(5, 1, 81);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 528px;
+        
+        padding: 40px;
+    }
+    .backdrop.is-hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    button{ 
+        cursor: pointer;
+        border-radius: 12px;
+        font-family: "Poppins";
+        display: flex;
+        font-size: x-small;
+        justify-content: center;
+        background-color: #000000;
+        color: aqua;
+        width: 60px;
+        height: 15px;
+    }
+    input,textarea{
+        font-family: "Poppins";
+        border-radius: 6px;
+    }
+    button:hover{
+       
+        background-color: #ff0000;
+        color: #000000;
+    }
+    .button{
+        cursor: pointer;
+        border-radius: 12px;
+        font-size: x-large;
+        font-family: "Poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #000000;
+        color: aqua;
+        width: 150px;
+        height: 30px;
+        
+    }
+    .button:hover{
+        
+        background-color: #ffffff;
+        color: #000000;
+    }
+    textarea{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 160px;
+    }
+    input{
+        width: 150px;
+    }
+
