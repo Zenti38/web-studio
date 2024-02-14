@@ -2,6 +2,58 @@
 
 
 
+.mogo-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.mogo-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+
+.project-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.project-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+
+.about-h{
+    font-family: Poppins;
+    font-size: larger; 
+}
+.about-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+.year-img{
+    width: 350px;
+    height: 200px; 
+}
+img{
+    width: 350px;
+    height: 200px;
+}
+.year-h{
+    font-family: Poppins;
+    font-size: larger;
+}
+.year-p{
+    font-family: Poppins;
+    font-size: medium;
+}
+.jobs{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 a{
     text-decoration: none;
 }
@@ -322,5 +374,8 @@ textarea{
     }
     input{
         width: 150px;
+    }
+    .jobs li{
+    width: 350px;
     }
 
